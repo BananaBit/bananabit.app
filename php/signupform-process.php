@@ -7,14 +7,14 @@ if (empty($_POST["email"])) {
     $email = $_POST["email"];
 }
 
-$EmailTo = "emiltartea@gmail.com";
-$Subject = "New newsletter signup from Riga landing page";
+$EmailTo = "contato@bananabit.app";
+$Subject = "New newsletter signup from BananaBit";
 
 // prepare email body text
 $Body = "";
 $Body .= "Email: ";
 $Body .= $email;
-$Body .= "\n";
+$Body .= "\n I want to receive updates from upcoming news from BananaBit. No spams please.";
 
 // send email
 $success = mail($EmailTo, $Subject, $Body, "From:".$email);

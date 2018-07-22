@@ -19,8 +19,8 @@ if (empty($_POST["message"])) {
     $message = $_POST["message"];
 }
 
-$EmailTo = "emiltartea@gmail.com";
-$Subject = "New message from Riga landing page";
+$EmailTo = "contato@bananabit.app";
+$Subject = "Hey BananaBit Team!";
 
 // prepare email body text
 $Body = "";
