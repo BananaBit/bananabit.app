@@ -802,7 +802,7 @@ select::-ms-expand {
 
 .header .logo-img {
 	width: 97px;
-	height: 34px;
+	height: 97px;
 	margin-top: 2.625rem;
 	margin-left: 1rem;
 }
@@ -1488,7 +1488,7 @@ a:hover.back-to-top {
 	position: absolute;
 	z-index: 2;
 	width: 97px;
-	height: 34px;
+	height: 97px;
 	top: 2.625rem;
 	left: 1rem;
 }
@@ -1684,7 +1684,7 @@ a:hover.back-to-top {
 
 	.header .logo-img {
 		width: 114px;
-		height: 40px;
+		height: 114px;
 		margin-top: 2.25rem;
 		margin-left: 2.5rem;
 	}
